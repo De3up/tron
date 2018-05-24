@@ -1,10 +1,11 @@
 module Main  where
 
 
-import Graphics.Gloss.Interface.Pure.Game
+import  Graphics.Gloss.Interface.Pure.Game
+
 main :: IO ()
 main =
-  play display bgColor fps initialWorld renderWorld handleWorld updateWorld
+    play display bgColor fps initialWorld renderWorld handleWorld updateWorld
   where
     display = InWindow "Game of Tron" winSize winOffset
     bgColor = black
