@@ -1,7 +1,7 @@
 module Main where
 
 
-import  Graphics.Gloss.Interface.Pure.Game
+import Graphics.Gloss.Interface.Pure.Game
 
 main :: IO ()
 main =
@@ -11,7 +11,7 @@ main =
     bgColor = black
     fps = 60
     initialWorld = ()
-    renderWorld  _ =  blank
+    renderWorld  _ = blank
     handleWorld _ w = w
     updateWorld _ w = w
     winSize = ( 800, 800 )
